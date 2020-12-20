@@ -2,13 +2,13 @@
 
 // The secret token to add as a GitHub or GitLab secret, or otherwise as https://www.example.com/?token=secret-token
 // --> https://randomkeygen.com/
-define("TOKEN", "9EDA37B7285AC2EF2DA6B9A2684EA");                                       
+define("TOKEN", "**************************************");                                       
 
 // The SSH URL to your repository
 define("REMOTE_REPOSITORY", "git@github.com:<your_username>/<your_repo>.git"); 
 
 // The path to your repostiroy; this must begin with a forward slash (/)
-define("DIR", "auto-deploy/");                          
+define("DIR", "../");                          
 
 // The branch route
 define("BRANCH", "refs/heads/master");                                 

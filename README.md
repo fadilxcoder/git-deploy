@@ -43,13 +43,13 @@
 
 ### App Setup 
 
-- GOTO `auto-deploy` folder, remove everything
-- Clone your app repo by **SSH**
-- Move everything to actual repo **AS** it should have a `.git` repo in it.
+- Include the `automated-deployment` directory into your application
+- Configure the `deploy.php` & remove unused files
+- Clone your app repo by **SSH** (This should be done manually the first time and codebase will automatically be deployed next time)
 - You may need to run some commands,
-- - `sudo chown -R yourusername:webserverusername auto-deploy/`
-- - `sudo chmod -R g+s auto-deploy/`
-- - `sudo chmod -R 775 auto-deploy/`
+- - `sudo chown -R yourusername:webserverusername your_directory_name/`
+- - `sudo chmod -R g+s your_directory_name/`
+- - `sudo chmod -R 775 your_directory_name/`
 
 ---
 
